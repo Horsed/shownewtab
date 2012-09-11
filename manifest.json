@@ -1,0 +1,13 @@
+{
+  "name": "Show created tab",
+  "description": "When a new tab is created it will be set active. This is the default behaviour of Firefox.",
+  "version": "0.2",
+  "incognito": "spanning",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
